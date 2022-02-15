@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;1,400&display=swap");
+@font-face {
+	font-family: "Sladosti";
+	src: url("../fonts/Sladosti-Regular.woff2") format("woff2");
+	src: url("../fonts/Sladosti-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+.page{
+	font-family: "EB Garamond", serif;
+	font-weight: 400;
+	font-size: 20px;
+}
+.headline{
+	margin: 20px 0 30px 30px;
+	font-style: italic;
+	font-size: 22px;
+	width: 240px;
+	padding-left: 10px;
+	color: black;
+	border-bottom: 2px dashed #000;
+	opacity: 0.7;
+}
+.title{
+	font-weight: 700;
+	font-size: 50px;
+	color: rgb(55, 119, 158) ;
+	max-width: 1100px;
+	margin: 30px auto 20px;
+	border: 10px solid rgb(128, 167, 192);
+	padding: 20px 0 30px 40px;
+	box-shadow: inset 0px -5px 30px 5px rgb(128, 167, 192);
+}
+.text1{
+	font-style: italic;
+	font-size: 22px;
+	color: rgb(51, 133, 153);
+	max-width: 400px;
+	margin: 0 20px 30px auto;
+	outline: 10px solid rgb(51, 133, 153);
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: -20px 30px 25px 5px rgb(62, 153, 165);
+	opacity: 0.8;
+}
+.text2{
+	
+	margin: 0 auto 20px;
+	padding-left: 50px;
+	border-bottom: 5px double #000;
+	font-size: 25px;
+	width: 1000px;
+}
+.image{
+	width: 600px;
+	margin: 0 0 0px 30px;
+	border-radius: 15%;
+	border: 10px double gray;
+}
+.image1{
+	width: 300px;
+	margin: 0 0 20px 30px;
+	border-radius: 50%;
+	border: 10px double gray;
+	
+}
+.image2{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+   box-shadow: 0 0 50px 20px rgb(106, 96, 112);
+	margin-left: 30px;
+	margin-bottom: 70px;
+
+}
+.text3{
+
+	margin: 0 0 20px 100px;
+	font-size: 15px;
+}
+.text4{
+	border: 10px dotted rgb(70, 68, 77);
+	padding: 20px;
+	max-height: 100px;
+	overflow: auto;
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+.text5{
+	border: 10px dashed rgb(195, 195, 223);
+	border-radius: 55% 35% 70% 30% / 47% 30% 78% 53% ;
+	overflow: hidden;
+	margin-bottom: 20px;
+	text-transform: capitalize;
+}
+.text6{
+	text-align: justify;
+	text-shadow: 1px 1px 1px blueviolet;
+	margin-bottom: 20px;
+	border: 2px solid blueviolet;
+	border-radius: 25%;
+	padding: 2%;
+}
+.text7{
+	font-family: Sladosti;
+	font-weight: 400;
+	font-style: normal;
+	color: rgb(102, 201, 168);
+	font-size: 42px;
+	width: 700px;
+	margin: 0 auto 30px;
+	padding: 2%;
+	text-decoration: underline;
+	box-shadow: 10px 20px 20px 10px rgb(184, 233, 184);
+}
+.text8{
+	outline: 10px dotted rgb(122, 133, 194);
+	box-shadow: inset 15px 15px 70px 70px rgb(102, 92, 192);
+	padding: 1%;
+	margin-bottom: 30px;
+}
+.text9{
+	border-left: 25px solid rgb(94, 30, 30);
+	border-right: 25px solid rgb(214, 61, 61);
+	padding: 5%;
+	margin: 0 0 20px 30px;
+	line-height: 1.2;
+	max-width: 1300px;
+}
+.text10{
+	margin: 0 auto 70px;
+	border-top: 10px dashed rgb(130, 130, 194);
+	border-bottom: 10px dashed rgb(79, 79, 136);
+	padding: 15px;
+	max-width: 700px;
+	letter-spacing: 1px;
+}
+.link{
+	display: inline-block;
+	background-color: rgb(128, 0, 0);
+	padding: 20px 30px;
+	color: rgb(218, 209, 209);
+	border-radius: 15px;
+	box-shadow: 0 15px 18px 0 rgb(102, 6, 6);
+	margin: 0 0 20px 30px ;
+	font-size: 50px;
+
+}
